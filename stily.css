@@ -1,0 +1,637 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Tiro+Gurmukhi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Margarine&family=Marko+One&family=Modak&display=swap');
+
+/*Reset --> para crossbrowser */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: #eceae6;
+}
+
+/*Cabeçalho*/
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background: #4e4ee1;
+
+}
+
+.logo-cabecalho {
+    height: 82px;
+    padding-left: 60px;
+}
+
+.logo-cabecalho:hover {
+    opacity: 0.75;
+}
+
+.logo-name {
+    font-family: 'Modak', cursive;
+    font-weight: 400;
+    font-size: 50px;
+    color: #ffbb34;
+    margin-right: 30%;
+    margin-top: 15px;
+}
+
+.logo-name:hover {
+    color: #a57410
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 62px;
+    padding-right: 60px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Paytone One', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffbb34;
+}
+
+.cabecalho-menu-item:hover {
+    color: #a57410;
+}
+
+.importante {
+    margin-bottom: 48px;
+    border-top: 4px solid #ffbb34;
+}
+
+.principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.principal-escrito-titulo {
+    font-family: 'Paytone One', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #ffbb34;
+    text-align: center;
+}
+
+.principal-escrito-texto {
+    font-family: 'Tiro Gurmukhi', serif;
+    font-weight: 400;
+    font-size: 27px;
+    text-align: center;
+    color: #26233a;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.patashop {
+    color: #4e4ee1;
+}
+
+.dog-feliz {
+    margin-top: 70px;
+    margin-right: 60px;
+    border-radius: 50px;
+    width: 650px;
+    box-shadow: 0px 0px 15px 5px #ffbb34;
+}
+
+.equipe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.equipe-titulo {
+    border-top: 4px solid #ffbb34;
+    padding-top: 48px;
+    font-family: 'Paytone One', sans-serif;
+    font-weight: 400;
+    font-size: 42px;
+    color: #ffbb34;
+    margin-bottom: 16px;
+}
+
+.equipe-imagem {
+    border-radius: 50px;
+    width: 800px;
+    align-items: center;
+    box-shadow: 0px 0px 15px 5px #ffbb34;
+    margin-bottom: 25px;
+}
+
+.equipe-texto {
+    font-family: 'Tiro Gurmukhi', serif;
+    font-weight: 400;
+    font-size: 27px;
+    text-align: center;
+    color: #26233a
+}
+
+.name-item {
+    color: #4e4ee1;
+}
+
+.rodape {
+    border-top: 4px solid #ffbb34;
+    background: #4e4ee1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.rodape-logo {
+    display: flex;
+    height: 92px;
+}
+
+.rodape-logo:hover {
+    opacity: 0.85;
+}
+
+.rodape-select {
+    display: flex;
+}
+
+.rodape-link {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    gap: 10px;
+    align-items: center;
+    padding-left: 130px;
+}
+
+.rodape-link-item {
+    color: #ffbb34;
+    font-size: 20px;
+    font-family: 'Tiro Gurmukhi', serif;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.rodape-link-item:hover {
+    color: #a57410;
+}
+
+.rodape-direitos {
+    display: flex;
+
+}
+
+.rodape-credito {
+    display: flex;
+    flex-direction: column;
+    color: #ffbb34;
+    font-size: 20px;
+    font-family: 'Tiro Gurmukhi', serif;
+    font-weight: 400;
+    font-size: 19px;
+    text-align: right;
+    padding-top: 15px;
+}
+
+.titulo-loja {
+    font-family: 'Paytone One', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #ffbb34;
+    text-align: center;
+    border-top: 4px solid #ffbb34;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.loja {
+    border: 10px solid #ffbb34;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+
+.loja-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+}
+
+.loja-img-item {
+    height: 400px;
+    cursor: pointer;
+}
+
+.loja-img-item:hover {
+    opacity: 0.75;
+}
+
+.loja-marca {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 40px;
+
+}
+
+.loja-marca-item {
+    font-family: 'Tiro Gurmukhi', serif;
+    font-weight: 400;
+    font-size: 27px;
+    text-align: center;
+    color: #4e4ee1;
+    cursor: pointer;
+}
+
+.loja-marca-item:hover {
+    color: #36369b;
+}
+
+.loja-valor {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 20px;
+    gap: 40px;
+
+}
+
+.loja-valor-item {
+    font-family: 'Tiro Gurmukhi', serif;
+    font-weight: 400;
+    font-size: 38px;
+    text-align: center;
+    color: #4e4ee1;
+    cursor: pointer;
+}
+
+.loja-valor-item:hover {
+    color: #36369b
+}
+
+.precinho {
+    color: #ffbb34;
+}
+
+.precinho:hover {
+    color: #a57410
+}
+
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 4px solid #ffbb34;
+}
+
+.contato-titulo {
+    padding-top: 20px;
+    font-family: 'Paytone One', sans-serif;
+    font-weight: 400;
+    font-size: 42px;
+    color: #ffbb34;
+    margin-bottom: 16px;
+    padding-bottom: 20px;
+}
+
+.contato-cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+    border-top: 4px solid #ffbb34;
+}
+
+.contato-cont-img {
+    margin-left: 15px;
+}
+
+.contato-cont-img-item {
+    height: 650px;
+}
+
+.contato-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.contato-cont-meios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.contato-cont-meios-titulo {
+    font-family: 'Paytone One', sans-serif;
+    font-weight: 400;
+    font-size: 42px;
+    color: #ffbb34;
+    margin-top: 8px;
+}
+
+.botao {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.botao-email {
+    background-color: #4e4ee1;
+    padding: 12px 24px;
+    color: #ffbb34;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Paytone One', sans-serif;
+    font-weight: 800px;
+    box-shadow: 0px 0px 10px 2px #ffbb34;
+}
+
+.botao-email:hover {
+    background-color: #ffbb34;
+    color: #4e4ee1;
+    box-shadow: 0px 0px 10px 2px #4e4ee1;
+}
+
+.botao-contato {
+    background-color: #4e4ee1;
+    padding: 12px 17px;
+    color: #ffbb34;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Paytone One', sans-serif;
+    font-weight: 800px;
+    box-shadow: 0px 0px 10px 2px #ffbb34;
+}
+
+.botao-contato:hover {
+    background-color: #ffbb34;
+    color: #4e4ee1;
+    box-shadow: 0px 0px 10px 2px #4e4ee1;
+}
+
+.atendimento {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.contato-cont-atendimento {
+    font-family: 'Paytone One', sans-serif;
+    font-weight: 400;
+    font-size: 42px;
+    color: #ffbb34;
+}
+
+.contato-cont-patashop {
+    font-family: 'Paytone One', sans-serif;
+    font-weight: 400;
+    font-size: 42px;
+    color: #ffbb34;
+}
+
+.contato-cont-patashop:hover {
+    color: #a57410
+}
+
+.contato-cont-horario {
+    font-family: 'Tiro Gurmukhi', serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #36369b
+}
+
+.localiza {
+    font-family: 'Paytone One', sans-serif;
+    font-weight: 400;
+    font-size: 42px;
+    color: #ffbb34;
+    margin-bottom: 4px;
+}
+
+.contato-cont-maps {
+    box-shadow: 0px 0px 10px 8px #36369b;
+    margin-bottom: 40px;
+}
+
+/*Pagina Agenda*/
+
+.importante-agenda {
+    margin-bottom: 48px;
+    border-top: 4px solid #ffbb34;
+}
+
+.conteudo-um {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.bloco-um {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-bloco-um {
+    font-family: 'Paytone One', sans-serif;
+    font-weight: 400;
+    font-size: 42px;
+    color: #ffbb34;
+    margin-bottom: 50px;
+}
+
+.texto-bloco-um {
+    font-family: 'Tiro Gurmukhi', serif;
+    font-weight: 400;
+    font-size: 27px;
+    text-align: center;
+    color: #26233a;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.img-bloco-um {
+    margin-top: 70px;
+    margin-right: 60px;
+    border-radius: 50px;
+    width: 650px;
+    box-shadow: 0px 0px 15px 5px #ffbb34;
+}
+
+.conteudo-dois {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.img-bloco-dois {
+    margin-top: 70px;
+    margin-left: 60px;
+    border-radius: 100px;
+    width: 650px;
+    box-shadow: 0px 0px 15px 5px #ffbb34;
+}
+
+.bloco-dois {
+    display: flex;
+}
+
+.texto-bloco-dois {
+    font-family: 'Tiro Gurmukhi', serif;
+    font-weight: 400;
+    font-size: 27px;
+    text-align: center;
+    color: #26233a;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 55px;
+}
+
+.agenda-form {
+    font-family: 'Paytone One', sans-serif;
+    font-weight: 400;
+    font-size: 42px;
+    color: #ffbb34;
+    margin-top: 25px;
+    text-align: center;
+}
+
+#parte {
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+
+}
+
+#divisão {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 200px;
+    background-color: #6b6bce;
+    border: none;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    color: #ffbb34;
+    display: block;
+}
+
+fieldset .grupo .campo {
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo select {
+    padding: 0.2em;
+    border: 1px solid;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    display: block;
+}
+
+.campo select,
+option {
+    padding-right: 1em;
+
+}
+
+input,
+select {
+    border-radius: 8px;
+}
+
+.dogbanho {
+    margin-top: 35px;
+    height: 300px;
+    margin-left: 400px;
+}
+
+/*Adoção*/
+
+.adocao-main {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border-top: 4px solid #ffbb34;
+}
+
+.titulo-adocao {
+    font-family: 'Paytone One', sans-serif;
+    font-weight: 400;
+    font-size: 46px;
+    color: #ffbb34;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.blocos {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: center;
+    border-bottom: 4px solid #ffbb34;
+    padding-bottom: 25px;
+}
+
+.adocao-img {
+    height: 280px;
+    border-radius: 150px;
+    box-shadow: 0px 0px 25px 0px #36369b;
+}
+
+.adocao-text {
+    font-family: 'Tiro Gurmukhi', serif;
+    font-weight: 400;
+    font-size: 27px;
+    text-align: center;
+    color: #26233a;
+}
